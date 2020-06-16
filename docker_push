@@ -1,0 +1,3 @@
+#!/bin/bash
+docker login -u "${DOCKER_HUB_USERNAME}" -p "${DOCKER_HUB_PASSWORD}"
+docker push dmytroishchuk/sails-rest-api:$TRAVIS_BUILD_NUMBER
